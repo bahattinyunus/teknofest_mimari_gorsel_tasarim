@@ -1,0 +1,1 @@
+# teknofest_mimari_gorsel_tasarim
