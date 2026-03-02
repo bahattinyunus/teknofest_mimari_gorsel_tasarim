@@ -392,6 +392,133 @@ Yarışma ile ilgili teknik sorularınız için resmi kanallar:
 
 ---
 
+## 🏆 Değerlendirme Kriterleri (Jüri Rubriği)
+
+Tasarımlarımızın jüri değerlendirmesindeki beklentileri karşılaması için bu kriterleri rehber alıyoruz.
+
+### 1️⃣ Ana Sahne — Değerlendirme Matrisi
+
+| Kriter | Ağırlık | Açıklama |
+| :--- | :---: | :--- |
+| 🏗️ Yapısal Uygulanabilirlik | **%30** | Statik güvenlik, geçici yapı uygunluğu, malzeme seçimi |
+| 🎨 Tasarım Özgünlüğü | **%25** | Estetik bütünlük, fütüristik vizyon, konsept tutarlılığı |
+| ⚙️ Operasyonel Uygunluk | **%25** | 7-10 gün kurulum, acil tahliye, sahne yönetim alanları |
+| 🌱 Sürdürülebilirlik | **%10** | Geri dönüştürülebilirlik, enerji verimliliği |
+| 📐 Teknik Dokümantasyon | **%10** | Çizim kalitesi, ölçekli sunumlar, açıklayıcı notlar |
+
+### 2️⃣ Ödül Heykelciği — Değerlendirme Matrisi
+
+| Kriter | Ağırlık | Açıklama |
+| :--- | :---: | :--- |
+| ✨ Özgünlük | **%35** | Orijinallik, ifade gücü, TEKNOFEST kimliğiyle bağ |
+| 🏭 Üretilebilirlik | **%30** | Uygulama planı, malzeme erişilebilirliği, maliyet gerçekçiliği |
+| 💡 Sembolik Anlatı | **%20** | Festivalin ruhunu yansıtma kapasitesi |
+| 📦 Teslimat Kalitesi | **%15** | Fiziksel sunum kalitesi, ambalaj, kimlik düzeni |
+
+### 3️⃣ Grafik Konsept — Değerlendirme Matrisi
+
+| Kriter | Ağırlık | Açıklama |
+| :--- | :---: | :--- |
+| 🎨 Görsel Kimlik Bütünlüğü | **%30** | Tutarlı dil, marka rehberine uygunluk |
+| 💡 Yaratıcılık | **%25** | Tema yorumu, özgün yaklaşım |
+| 🏗️ Uygulama Kapsamı | **%25** | İç/dış mekân + dijital + basılı — tam kapsam |
+| 📐 Teknik Hassasiyet | **%20** | Boyut uygunluğu, üretim-hazır dosya kalitesi |
+
+---
+
+## 📊 Proje İlerleme Durumu
+
+### Ana Sahne Tasarımı
+```
+Konsept Araştırması    ████████████████████ 100%
+Moodboard & Eskiz      ██████████░░░░░░░░░░  50%
+3D Modelleme           ████░░░░░░░░░░░░░░░░  20%
+Render & Animasyon     ░░░░░░░░░░░░░░░░░░░░   0%
+Teknik Çizimler        ██░░░░░░░░░░░░░░░░░░  10%
+Final Sunum Paketi     ░░░░░░░░░░░░░░░░░░░░   0%
+```
+
+### Ödül Heykelciği
+```
+Konsept Araştırması    ████████████████████ 100%
+Form Çalışmaları       ████░░░░░░░░░░░░░░░░  20%
+3D Model               ░░░░░░░░░░░░░░░░░░░░   0%
+Prototip / Mockup      ░░░░░░░░░░░░░░░░░░░░   0%
+Final Sunum Paketi     ░░░░░░░░░░░░░░░░░░░░   0%
+```
+
+### Grafik Konsept
+```
+Konsept Araştırması    ████████████████████ 100%
+Renk & Tipografi       ████████████░░░░░░░░  60%
+Logo Çalışması         ████░░░░░░░░░░░░░░░░  20%
+Marka Rehberi          ██░░░░░░░░░░░░░░░░░░  10%
+Uygulama Maketleri     ░░░░░░░░░░░░░░░░░░░░   0%
+```
+
+> 🔄 *Bu tablo her sprint sonunda güncellenecektir.*
+
+---
+
+## 🗺️ Ana Sahne — Alan Planı (Şematik)
+
+```
+┌─────────────────────────── 55m ───────────────────────────────┐
+│                                                                │
+│  ┌──────────────────────── 25m ───────────────────────────┐  │ 14m
+│  │           ÇATI / LED EKRAN SİSTEMİ                     │  │  ↑
+│  │  ┌─────────────── Sahne Yönetim ──────────────────┐   │  │
+│  │  │  Ses     ←    MIX KÖPRÜSÜ    →    Işık         │   │  │
+│  │  └────────────────────────────────────────────────┘   │  │
+│  │  ┌──────────────────────────── 20m ──────────────┐    │  │
+│  │  │                                               │    │  │
+│  │  │         PERFORMANS PODYUMU (1.5m)             │    │  │
+│  │  │              18m derinlik                     │    │  │
+│  │  └───────────────────────────────────────────────┘    │  │
+│  │         ↑ Seyirci Geçiş Koridoru ↑                    │  │  ↓
+│  └────────────────────────────────────────────────────────┘  │
+│         [SOL PIT]     [KAMERA]     [SAĞ PIT]                  │
+└───────────────────────────────────────────────────────────────┘
+              ↑────────── SEYİRCİ ALANI ──────────↑
+```
+
+> ℹ️ Şematik ölçeksizdir. Gerçek teknik çizimler `src/ana_sahne/cizimler/` klasöründe yer alacaktır.
+
+---
+
+## 📚 Kaynaklar ve Faydalı Linkler
+
+### 🏛️ Resmi Kaynaklar
+| Kaynak | Link |
+| :--- | :--- |
+| TEKNOFEST Ana Sayfa | [teknofest.org](https://www.teknofest.org) |
+| Resmi Şartname (PDF) | [`2026-TEKNOFEST...pdf`](./2026-TEKNOFEST_Mimari_ve_Görsel_Tasarım_Yarışması_Türkçe_Şartname_k1oIh.pdf) |
+| Arkitera (Yarışma Haberleri) | [arkitera.com](https://www.arkitera.com) |
+
+### 🛠️ Tasarım Araç Linkleri
+| Araç | Amaç | Link |
+| :--- | :--- | :--- |
+| Blender | 3D Modelleme / Render | [blender.org](https://www.blender.org) |
+| Rhino 3D + Grasshopper | Parametrik Tasarım | [rhino3d.com](https://www.rhino3d.com) |
+| Figma | Grafik / UI | [figma.com](https://www.figma.com) |
+| Theatre.js | Web Animasyon | [github.com/theatre-js/theatre](https://github.com/theatre-js/theatre) |
+| Blender-DMX | Aydınlatma Sim. | [github.com/open-stage/blender-dmx](https://github.com/open-stage/blender-dmx) |
+| Twinmotion | Mimari Görselleştirme | [twinmotion.com](https://www.twinmotion.com) |
+
+### 📖 Proje Dokümanları
+| Doküman | Açıklama |
+| :--- | :--- |
+| [DESIGN_SYSTEM.md](./docs/DESIGN_SYSTEM.md) | Renk paleti, tipografi, tasarım ilkeleri |
+| [COMPETITOR_ANALYSIS.md](./docs/COMPETITOR_ANALYSIS.md) | Rakip analizi ve stratejik öneriler |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | Katkı rehberi — branch stratejisi, commit formatı |
+| [CHANGELOG.md](./CHANGELOG.md) | Versiyon geçmişi |
+| [Ana Sahne SPECS.md](./src/ana_sahne/SPECS.md) | Detaylı teknik spesifikasyon |
+| [Ana Sahne README](./src/ana_sahne/README.md) | Kategori proje rehberi |
+| [Ödül Heykelciği README](./src/odul_heykelcigi/README.md) | Kategori proje rehberi |
+| [Grafik Konsept README](./src/grafik_konsept/README.md) | Kategori proje rehberi |
+
+---
+
 <div align="center">
 
 **© 2026 TEKNOFEST Mimari ve Görsel Tasarım Yarışması**
@@ -403,6 +530,7 @@ Yarışma ile ilgili teknik sorularınız için resmi kanallar:
 ![Made with Blender](https://img.shields.io/badge/Made_with-Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
 ![Made with Figma](https://img.shields.io/badge/Made_with-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Made with React](https://img.shields.io/badge/Made_with-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![TEKNOFEST](https://img.shields.io/badge/TEKNOFEST-2026_Design_Competition-0055FF?style=flat-square)
 
 </div>
