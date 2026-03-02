@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Blender temp files
+*.blend1
+*.blend2
+
+# 3D Software auto-saves
+*_autosave.*
+*_backup.*
+
+# Large binary/render outputs (add to Git LFS instead)
+*.exr
+*.hdr
+*.fbx
+*.max
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/

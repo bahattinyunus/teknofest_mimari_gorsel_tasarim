@@ -1,0 +1,46 @@
+name: 🌐 Showcase Build & Deploy
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'showcase/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'showcase/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Showcase App
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: showcase/package-lock.json
+
+      - name: 📦 Install Dependencies
+        working-directory: showcase
+        run: npm ci
+
+      - name: 🏗️ Build Project
+        working-directory: showcase
+        run: npm run build
+
+      - name: ✅ Build Success
+        run: echo "Showcase app built successfully!"
+
+      - name: 📁 Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-dist
+          path: showcase/dist/
+          retention-days: 7
