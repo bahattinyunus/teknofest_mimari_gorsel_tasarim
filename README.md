@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner/banner.png" alt="TEKNOFEST 2026 Mimari ve Görsel Tasarım Yarışması Banner" width="100%"/>
+</p>
+
 # 🚀 TEKNOFEST 2026: Mimari ve Görsel Tasarım Yarışması
 
 ![TEKNOFEST Banner](https://img.shields.io/badge/TEKNOFEST-2026-blue?style=for-the-badge&logo=rocket)
